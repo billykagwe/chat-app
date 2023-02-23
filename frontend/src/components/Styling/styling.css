@@ -253,3 +253,22 @@ button:focus {
 .activeContainer img {
   padding-left: 10px;
 }
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login button {
+  margin-top: 20rem;
+  display: block;
+  padding: 10px;
+  border-radius: 3px;
+  text-align: center;
+  background: teal;
+  color: white;
+  width: 400px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
