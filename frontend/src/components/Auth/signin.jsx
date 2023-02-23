@@ -37,7 +37,7 @@ function SignIn() {
           </div>
         </div>
       ) : (
-        <div>
+        <div className='login'>
           <button type='button' onClick={() => loginWithRedirect()}>
             Click me to login
           </button>
